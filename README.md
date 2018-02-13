@@ -7,3 +7,8 @@ Algorithms & AI
 Imperative programming 
 Unix 
 ```
+### Objectives
+```
+Autoréplication 
+Recursion 
+```
