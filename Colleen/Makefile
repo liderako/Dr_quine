@@ -14,8 +14,6 @@ NAME = Colleen
 
 FLAGS = -c -Wall -Wextra -Werror
 
-HEADER = libft.h
-
 SRCS = Colleen.c
 
 BINS = $(SRCS:.c=.o)
@@ -24,7 +22,7 @@ all: $(NAME)
 
 $(NAME): $(BINS)
 
-%.o: %.c $(HEADER)
+%.o: %.c
 	@ gcc	$(FLAGS)	-o	$@ $<
 
 clean:
